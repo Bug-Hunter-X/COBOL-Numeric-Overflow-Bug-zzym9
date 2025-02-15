@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in COBOL programs: numeric overflow.  The `bug.cob` file contains code that attempts to assign a value exceeding the declared size of a numeric variable.  The `bugSolution.cob` file shows how to prevent this error using appropriate data type declaration and range checks.
